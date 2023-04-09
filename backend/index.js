@@ -1,6 +1,6 @@
 const functions = require("firebase-functions");
 const express = require("express");
-const stripe = require("stripe")("Stripe API key");
+const stripe = require("stripe")("sk_test_51MuviqSFlC3mWDdfNQOkjLbr22gLe0l8tXZoT6Qgh3yCoceisG9i32p9s4ZIok1Of5LsWUtqrPMHNW479equZFxJ00rj8weuW7");
 
 const request = require("request");
 
